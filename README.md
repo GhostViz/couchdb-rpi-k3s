@@ -26,5 +26,5 @@ kubectl create -f couchdb-rpi-k3s/couchdb-service-nodeport.yaml
 This should not be used for any sort of sensitive information or production environment in it's current state. 
 
 ## Future Updates
-TLS for couchdb communication
-couchdb clustering across multiple pods
+* TLS for couchdb communication
+* CouchDB clustering across multiple pods

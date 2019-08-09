@@ -4,16 +4,16 @@ This deployment utilizes the [treehouses/couchdb](https://hub.docker.com/r/treeh
 
 ## How to Use
 
-1.Clone the repository 
+1. Clone the repository 
 ``` Shell
 git clone git@github.com:oxhankey/couchdb-rpi-k3s.git
 ```
-2.Update the deployment environment variables
-3.Create the CouchDB Deployment
+2. Update the deployment environment variables
+3. Create the CouchDB Deployment
 ``` Shell
 kubectl create -f couchdb-rpi-k3s/couchdb-deployment.yaml
 ```
-4.Create the CouchDB Service
+4. Create the CouchDB Service
 ``` Shell
 kubectl expose deployment couchdb-deployment --type=NodePort --name=couchdb-service 
 ```
